@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Vintage Sofa",
+    "image": "/images/Vintage Sofa.png",
+    "baseBid": "$800",
+    "currentBid": "$1200",
+    "category": "Furniture",
+    "slug": ["all", "furniture", "popular", "live"],
+    "gallery": "Living Room Collection",
+    "tag": "Live"
+  },
+  {
+    "id": 2,
+    "name": "Antique Lantern",
+    "image": "/images/Oil Lantern.png",
+    "baseBid": "$500",
+    "currentBid": "$700",
+    "category": "Antiques",
+    "slug": ["all", "antiques", "live", "popular"],
+    "gallery": "Antique Treasures",
+    "tag": "Live"
+  },
+  {
+    "id": 3,
+    "name": "BSQ Painting",
+    "image": "/images/BSQ1.png",
+    "baseBid": "$1500",
+    "currentBid": "$2000",
+    "category": "Fine Arts",
+    "slug": ["all", "fine-arts", "sponsored", "live"],
+    "gallery": "Modern Art Gallery",
+    "tag": "Live"
+  },
+  {
+    "id": 4,
+    "name": "Collectible Watch",
+    "image": "/images/Vintage Watch.png",
+    "baseBid": "$3000",
+    "currentBid": "$4000",
+    "category": "Collectibles",
+    "slug": ["all", "collectibles", "sponsored", "popular"],
+    "gallery": "Luxury Collectibles",
+    "tag": "Sponsored"
+  },
+  {
+    "id": 5,
+    "name": "Classic Armchair",
+    "image": "/images/Classic Armchair.png",
+    "baseBid": "$700",
+    "currentBid": "$950",
+    "category": "Furniture",
+    "slug": ["all", "furniture", "live"],
+    "gallery": "Living Room Collection",
+    "tag": "Live"
+  },
+  {
+    "id": 6,
+    "name": "Rare Coin",
+    "image": "/images/Rare Coin Set.png",
+    "baseBid": "$2000",
+    "currentBid": null,
+    "category": "Collectibles",
+    "slug": ["all", "collectibles", "upcoming"],
+    "gallery": "Luxury Collectibles",
+    "tag": "Upcoming"
+  },
+  {
+    "id": 7,
+    "name": "Victorian Mirror",
+    "image": "/images/Victorian Mirror.png",
+    "baseBid": "$1500",
+    "currentBid": "$1800",
+    "category": "Antiques",
+    "slug": ["all", "antiques", "popular", "live"],
+    "gallery": "Antique Treasures",
+    "tag": "Live"
+  },
+  {
+    "id": 8,
+    "name": "Sculptural Lamp",
+    "image": "/images/Sculptural Lamp.png",
+    "baseBid": "$1000",
+    "currentBid": "$1250",
+    "category": "Furniture",
+    "slug": ["all", "furniture", "popular"],
+    "gallery": "Living Room Collection",
+    "tag": null
+  },
+  {
+    "id": 9,
+    "name": "Gold-Plated Frame",
+    "image": "/images/Gold-Plated Frame.png",
+    "baseBid": "$500",
+    "currentBid": "$650",
+    "category": "Fine Arts",
+    "slug": ["all", "fine-arts", "live"],
+    "gallery": "Modern Art Gallery",
+    "tag": "Live"
+  },
+  {
+    "id": 10,
+    "name": "Temu Couch",
+    "image": "/images/Temu Sofa.png",
+    "baseBid": "$1200",
+    "currentBid": null,
+    "category": "Furniture",
+    "slug": ["all", "furniture", "upcoming"],
+    "gallery": "Living Room Collection",
+    "tag": "Upcoming"
+  },
+  {
+    "id": 11,
+    "name": "Marble Bust",
+    "image": "/images/Marble Bust.png",
+    "baseBid": "$2200",
+    "currentBid": "$2800",
+    "category": "Fine Arts",
+    "slug": ["all", "fine-arts", "popular", "sponsored"],
+    "gallery": "Modern Art Gallery",
+    "tag": "Sponsored"
+  },
+  {
+    "id": 12,
+    "name": "Rare Chess Set",
+    "image": "/images/Rare Chess Set.png",
+    "baseBid": "$4000",
+    "currentBid": "$4500",
+    "category": "Collectibles",
+    "slug": ["all", "collectibles", "popular"],
+    "gallery": "Luxury Collectibles",
+    "tag": null
+  },
+  {
+    "id": 13,
+    "name": "LE Boy Camera",
+    "image": "/images/LE Boy Camera.png",
+    "baseBid": "$850",
+    "currentBid": null,
+    "category": "Collectibles",
+    "slug": ["all", "collectibles", "upcoming"],
+    "gallery": "Living Room Collection",
+    "tag": "Upcoming"
+  },
+  {
+    "id": 14,
+    "name": "Oil Painting",
+    "image": "/images/Oil Painting.png",
+    "baseBid": "$2500",
+    "currentBid": "$3200",
+    "category": "Fine Arts",
+    "slug": ["all", "fine-arts", "live"],
+    "gallery": "Modern Art Gallery",
+    "tag": "Live"
+  },
+  {
+    "id": 15,
+    "name": "Bronze Sculpture",
+    "image": "/images/Bronze Sculpture.png",
+    "baseBid": "$3500",
+    "currentBid": null,
+    "category": "Fine Arts",
+    "slug": ["all", "fine-arts", "upcoming", "sponsored"],
+    "gallery": "Modern Art Gallery",
+    "tag": "Sponsored"
+  },
+  {
+    "id": 16,
+    "name": "Porcelain Figurine",
+    "image": "/images/Porcelain Figurine.png",
+    "baseBid": "$700",
+    "currentBid": "$800",
+    "category": "Collectibles",
+    "slug": ["all", "collectibles", "popular"],
+    "gallery": "Antique Treasures",
+    "tag": null
+  },
+  {
+    "id": 17,
+    "name": "Leather Ottoman",
+    "image": "/images/Leather Ottoman.png",
+    "baseBid": "$950",
+    "currentBid": "$1200",
+    "category": "Furniture",
+    "slug": ["all", "furniture", "popular", "live"],
+    "gallery": "Living Room Collection",
+    "tag": "Live"
+  },
+  {
+    "id": 18,
+    "name": "Crystal Chandelier",
+    "image": "/images/Crystal Chandelier.png",
+    "baseBid": "$5000",
+    "currentBid": "$5800",
+    "category": "Collectibles",
+    "slug": ["all", "collectibles", "popular"],
+    "gallery": "Luxury Collectibles",
+    "tag": null
+  },
+  {
+    "id": 19,
+    "name": "Vintage Fork",
+    "image": "../public/images/Table Set.png",
+    "baseBid": "$850",
+    "currentBid": null,
+    "category": "Antiques",
+    "slug": ["all", "antiques", "upcoming"],
+    "gallery": "Antique Treasures",
+    "tag": "Upcoming"
+  },
+  {
+    "id": 20,
+    "name": "Decorative Tapestry",
+    "image": "../public/images/Decorative Tapestry.png",
+    "baseBid": "$1800",
+    "currentBid": "$2200",
+    "category": "Fine Arts",
+    "slug": ["all", "fine-arts", "sponsored"],
+    "gallery": "Modern Art Gallery",
+    "tag": "Sponsored"
+  }
+]
