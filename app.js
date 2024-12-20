@@ -1,36 +1,45 @@
 const express = require('express');
 const session = require('express-session');
-const fs = require('fs');
+const connectRedis = require('connect-redis');
+const redis = require('redis');
 const path = require('path');
-const app = express();
-const PORT = 7000;
+const fs = require('fs');
+const dotenv = require('dotenv');
 
-// Middleware
+dotenv.config(); // Load environment variables from .env
+
+// Redis Client
+const redisClient = redis.createClient({
+  url: process.env.REDIS_URL, // or use your redis connection URL directly
+});
+
+// Express app setup
+const app = express();
+const RedisStore = connectRedis(session); // connectRedis is now directly used with session
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public'));
+
 app.use(
   session({
-    secret: 'antique-secret-key',
+    store: new RedisStore({ client: redisClient }), // Use RedisStore with session
+    secret: process.env.SESSION_SECRET || 'your-session-secret',
     resave: false,
-    saveUninitialized: true,
-     cookie: {
-      maxAge: 30 * 60 * 1000, // Session lasts for 30 minutes (in milliseconds)
-    },
+    saveUninitialized: false,
+    cookie: { secure: process.env.NODE_ENV === 'production', maxAge: 1000 * 60 * 30 },
   })
 );
 
-
-// app.use('/images', express.static(path.join(__dirname, './public/images')));
+// Serve static files (images, etc.)
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
-console.log(path.join(__dirname, 'public/images'));
 
-// Routes
+// Your API routes
 app.use('/api/v1/user', require('./routes/users'));
 app.use('/api/v1/visitor', require('./routes/visitors'));
 app.use('/api/v1/products', require('./routes/products'));
 
-// Start server
+// Server start
+const PORT = process.env.PORT || 7000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
